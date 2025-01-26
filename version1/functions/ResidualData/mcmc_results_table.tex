@@ -1,0 +1,27 @@
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{table}[h!]
+    \centering
+    \caption{Summary of MCMC Results for Different Surveys}
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Survey} & \textbf{Mean of $k_0$} & \textbf{Standard Deviation of $k_0$} & \textbf{P($k_0 > 0$)} & \textbf{Standard Deviations from $k_0=0.0163$} \\
+        \midrule
+SKA MID Band 1 & 0.01680 & 0.00009 & 1.000 & 5.543 \\
+MeerKAT L Band & 0.01592 & 0.00236 & 1.000 & -0.161 \\
+MeerKAT UHF Band & 0.01630 & 0.00162 & 1.000 & -0.002 \\
+HAlpha & 0.01661 & 0.00118 & 1.000 & 0.266 \\
+DESI ELG & 0.01654 & 0.00141 & 1.000 & 0.168 \\
+DESI BGS & 0.01641 & 0.00194 & 1.000 & 0.055 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:mcmc_results}
+\end{table}
+
+\end{document}
